@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ====================================navbar=============================== */
+nav{
+  background-color: cadetblue;
+  width: 100vw;
+}
+nav ul{
+     display: flex;
+}
+nav ul li{
+   margin: 12px;
+   list-style-type: none;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+/* nav .link_box li a{
+     text-align: right;
+} */
+nav ul li a:hover{
+   color: black;
+}
+
+/* ==========================================footer========================================== */
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: cadetblue;
+  width: 100vw;
+  text-align: center;
+}
+/* =========================================fomr============================================ */
+.from_box  {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.from_box form input{
+   margin: 20px;
+   width: 400px;
+   padding: 5px;
+}
+.from_box form button{
+  padding: 1px 17px;
+  border: none;
+  background-color: cadetblue;
+  margin-left: 18px;
+}
+/* ========================tabel================================= */
+
+table, th, td {
+   border: 1px solid black;
+   margin: auto;
+   padding: 9px 55px;
+ }
